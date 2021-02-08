@@ -4,8 +4,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: url("./components/images/bg.svg") no-repeat;
-  background-size: cover;
-  font-family: "Montserrat", sans-serif;
-}

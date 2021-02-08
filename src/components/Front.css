@@ -1,0 +1,9 @@
+body {
+    background: url("./images/bg.svg") no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+}
+
+.front-container{
+    height: 750px;
+}

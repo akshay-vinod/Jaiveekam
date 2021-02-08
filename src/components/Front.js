@@ -1,8 +1,9 @@
 import React from "react";
+import "./Front.css"
 const Front = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container front-container">
         <div className="row">
           <div className="col-4 mt-5 ml-3">
             <h2>Revolutionizing the Fresh Produce Supply Chain</h2>
