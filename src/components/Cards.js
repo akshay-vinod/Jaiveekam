@@ -2,7 +2,7 @@ import React from "react";
 import "./Cards.css";
 const Cards = () => {
   return (
-    <div className="container">
+    <div className="container farmer">
       <div className="row">
         <h4 className="display-5">Creating opportunities for everyone</h4>
       </div>
