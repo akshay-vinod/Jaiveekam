@@ -1,15 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-* {
-  border: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 ul {
   margin-right: 5em;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 5px 5px;
+  padding: 23px 10px;
 }
 li,
 a {
@@ -26,6 +20,9 @@ li {
   display: inline-block;
   padding: 0px 20px;
 }
-a {
-  transition: all 0.3s ease 0;
+.alignitems li a {
+  transition: all 1s ease 0;
+}
+.imgct {
+  width: 700px;
 }

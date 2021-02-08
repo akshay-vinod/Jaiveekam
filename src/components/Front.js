@@ -1,5 +1,4 @@
 import React from "react";
-
 const Front = () => {
   return (
     <div>
@@ -15,19 +14,6 @@ const Front = () => {
             <br />
             <br />
             <button className="btn btn-success">Learn more</button>
-            <div>
-              <img
-                className="environment"
-                src="/images/undraw_environment_iaus.svg"
-              />
-            </div>
-          </div>
-
-          <div className="col-8">
-            <img
-              className="mobileapps"
-              src="/images/undraw_mobile_apps_spmp.svg"
-            />
           </div>
         </div>
       </div>

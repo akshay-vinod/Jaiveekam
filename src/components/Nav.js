@@ -2,10 +2,10 @@ import React from "react";
 import "./Nav.css";
 const Nav = () => {
   return (
-    <div className="alignitems">
+    <div>
       <header>
         <nav>
-          <ul>
+          <ul className="alignitems">
             <li>
               <a href="#">Home</a>
             </li>
