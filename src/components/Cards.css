@@ -30,6 +30,32 @@
   padding-left: 20px;
   margin-top: 20px;
 }
+.leaf {
+  position: absolute;
+  overflow: hidden;
+  top: 140vh;
+  left: -5vh;
+  z-index: 2;
+  animation: float 6s ease-in-out infinite;
+}
+.adjleaf {
+  height: 350px;
+}
+.card-s {
+  z-index: 1;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
 /*<div>
 Icons made by{" "}
 <a href="https://creativemarket.com/eucalyp" title="Eucalyp">
