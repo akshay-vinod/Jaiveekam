@@ -13,6 +13,7 @@ const Cards = () => {
         </p>
       </div>
       <div className="row mt-5">
+        <div className="col-1"></div>
         <div className="col-3">
           <div className="card cards">
             <div className="card-body">
