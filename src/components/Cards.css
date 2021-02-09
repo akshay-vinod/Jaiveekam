@@ -7,24 +7,24 @@
   background: #fff;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
-    0.5s box-shadow,
-    0.5s color,
+    0.5s box-shadow, 0.5s color,
     0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   height: 100%;
 }
 
 .cards:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.20), 0 4px 8px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2),
+    0 4px 8px 8px rgba(0, 0, 0, 0.12);
   background-color: #7eb86d;
-  color: #fff
+  color: #fff;
 }
-.card-title{
+.card-title {
   font-size: larger;
   font-weight: bold;
   margin-top: 30px;
 }
-.card-text{
+.card-text {
   font-size: 16px;
   line-height: 70%;
   padding-left: 20px;

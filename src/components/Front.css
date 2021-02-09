@@ -1,9 +1,16 @@
-body {
-    background: url("./images/bg.svg") no-repeat;
-    background-size: cover;
-    font-family: "Montserrat", sans-serif;
+/*body {
+  background: url("./images/bg.svg") no-repeat;
+  background-size: 100vh 100vw;
+  font-family: "Montserrat", sans-serif;
 }
-
-.front-container{
-    height: 750px;
+*/
+.bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+.front-container {
+  margin-bottom: 30%;
 }
