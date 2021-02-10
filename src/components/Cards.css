@@ -42,7 +42,7 @@
 .leaf {
   position: absolute;
   overflow: hidden;
-  top: 130vh;
+  top: 150vh;
   left: -15vh;
   z-index: 2;
   animation: float 6s ease-in-out infinite;
