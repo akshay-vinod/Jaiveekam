@@ -1,8 +1,8 @@
-.bg{
-    background-color: #52ae77;
-}
-.bgimage{
-    width: 50px;
+.footerBg {
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
 }
 
 /*Bijak colors #52ae77 #4da470*/

@@ -7,7 +7,7 @@ const Nav = () => {
         <nav>
           <div className="logo">
             <a href="#">
-              <h3>Jaiveekam</h3>
+              <p>Jaiveekam</p>
             </a>
           </div>
           <ul className="nav-links">
@@ -16,12 +16,6 @@ const Nav = () => {
             </li>
             <li>
               <a href="#">About Us </a>
-            </li>
-            <li>
-              <a href="#">Buy/Sell</a>
-            </li>
-            <li>
-              <a href="#">Careers</a>
             </li>
             <li>
               <a href="#">People</a>
