@@ -7,7 +7,7 @@ const Cards = () => {
       <div className="leaf">
         <img className="adjleaf" src="/images/leaf.svg" />
       </div>
-      <div className="container">
+      <div className="container gfont">
         <div className="card-s">
           <div className="row">
             <h4 className="display-5">Creating opportunities for everyone</h4>

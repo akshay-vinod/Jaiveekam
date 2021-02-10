@@ -1,28 +1,24 @@
-ul {
-  margin-right: 5em;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  padding: 23px 10px;
+  min-height: 8vh;
 }
-li,
-a {
-  color: black;
+.logo a {
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
-  list-style: none;
-  font-family: "Montserrat", sans-serif;
-}
-a:hover {
   color: #5caa45;
 }
-li {
+.logo a :hover {
+  color: #5caa45;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  font-weight: bold;
+}
+.nav-links a {
   list-style: none;
-  display: inline-block;
-  padding: 0px 20px;
-}
-.alignitems li a {
-  transition: all 1s ease 0;
-}
-.imgct {
-  width: 700px;
 }

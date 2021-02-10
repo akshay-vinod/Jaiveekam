@@ -1,6 +1,9 @@
+.gfont {
+  font-family: "Montserrat", sans-serif;
+}
 .bgpattern {
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   width: 100%;
 }
 .icons {

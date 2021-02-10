@@ -4,8 +4,13 @@ const Nav = () => {
   return (
     <div>
       <header>
-        <nav className="navbar">
-          <ul className="alignitems">
+        <nav>
+          <div className="logo">
+            <a href="#">
+              <h3>Jaiveekam</h3>
+            </a>
+          </div>
+          <ul className="nav-links">
             <li>
               <a href="#">Home</a>
             </li>
