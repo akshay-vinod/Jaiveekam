@@ -3,7 +3,7 @@ import "./Cards.css";
 const Cards = () => {
   return (
     <div>
-        <img src="/images/Liquid-Cheese3.svg" className="bgpattern" />
+      <img src="/images/Liquid-Cheese3.svg" className="bgpattern" />
       <div className="leaf">
         <img className="adjleaf" src="/images/leaf.svg" />
       </div>
