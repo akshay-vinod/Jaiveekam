@@ -10,7 +10,7 @@ const Cards = () => {
       <div className="container gfont">
         <div className="card-s">
           <div className="row">
-            <h4 className="display-5">Creating opportunities for everyone</h4>
+            <h4 className="display-5 mt-5">Creating opportunities for everyone</h4>
           </div>
           <div className="row">
             <p className="lead mt-3">
