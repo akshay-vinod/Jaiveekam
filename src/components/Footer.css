@@ -4,5 +4,30 @@
   overflow: hidden;
   width: 100%;
 }
+.footer {
+  padding-top: 10%;
+  color: #f4f8f7;
+  font-size: large;
+  font-family: "Montserrat", sans-serif;
+}
+.footer a{
+  text-decoration: none;
+  color: #f4f8f7;
+}
+.footer a:hover{
+  color:black
+}
+.fa-margin {
+  position: relative;
+  top:5px;
+  margin-right: 20px;
+}
+.fa-button{
+  width: 30px;
+  height: 30px;
+}
+.links a{
+  margin-left: 10px;
+}
 
 /*Bijak colors #52ae77 #4da470*/
