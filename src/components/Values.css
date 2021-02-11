@@ -1,0 +1,51 @@
+.gg {
+  background-color: #ffffff;
+}
+.values {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.values-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.values-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.value-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.gg img {
+  margin: 15px 0px;
+}
+.value-heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.value-heading p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.value-content {
+  width: 250px;
+}
+.p-head {
+  margin: 0px 0px 0px 15px;
+  font-size: 20px;
+}
+.p-content {
+  font-size: 14px;
+  padding: 0px 0px 0px 15px;
+}
