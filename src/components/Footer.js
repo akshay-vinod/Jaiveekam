@@ -2,10 +2,7 @@ import React from "react";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div>
-      <div>
-        <img className="footerBg" src="/images/footerbg.svg" alt="" />
-      </div>
+    <div className="bg">
       <div className="container">
         <div className="row footer">
           <div className="col-4">
@@ -71,6 +68,16 @@ const Footer = () => {
                 <a href="#">FAQ</a>
               </p>
             </div>
+          </div>
+        </div>
+        <div className="row bottom">
+          <hr />
+          <div className="col-3"></div>
+          <div className="col-6">
+            <p>
+              <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>{" "}
+              | <a href="#">Refund Policy</a> | <a href='https://www.freepik.com/vectors/flower'>Flower vector created by macrovector - www.freepik.com</a>
+            </p>
           </div>
         </div>
       </div>
