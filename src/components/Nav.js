@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Nav.css";
 const Nav = () => {
+  const [navbar, setNavbar] = useState(false);
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener("scroll", changeBackground);
   return (
     <div>
-      <header>
+      <header className={navbar ? "bb-color" : ""}>
         <nav className="nav-bar">
           <div className="logo">
             <a href="#">
