@@ -9,14 +9,18 @@ const Cards = () => {
       </div>
       <div className="container gfont">
         <div className="card-s">
-          <div className="row">
-            <h4 className="display-5 mt-5">Creating opportunities for everyone</h4>
-          </div>
-          <div className="row">
-            <p className="lead mt-3">
-              We are the first platform enabling increased benefits for farmers,
-              retailers, and consumers.
-            </p>
+          <div className="title">
+            <div className="row">
+              <h4 className="display-5 mt-5">
+                Creating opportunities for everyone
+              </h4>
+            </div>
+            <div className="row">
+              <p className="lead mt-3">
+                We are the first platform enabling increased benefits for
+                farmers, retailers, and consumers.
+              </p>
+            </div>
           </div>
           <div className="row mt-5">
             <div className="col-1"></div>

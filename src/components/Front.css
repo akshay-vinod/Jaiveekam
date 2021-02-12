@@ -12,6 +12,10 @@
   width: 100%;
 }
 .front-container {
-  margin-bottom: 30%;
+  margin-bottom: 20%;
   font-family: "Montserrat", sans-serif;
+}
+.title{
+  margin-top: 10%;
+  margin-left: 5%;
 }
