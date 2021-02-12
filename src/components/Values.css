@@ -2,7 +2,18 @@
   background-color: #ffffff;
   margin-bottom: 5%;
 }
+.value-heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.value-heading p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+}
 .values {
+  padding-top: 35px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -20,6 +31,7 @@
   align-items: center;
 }
 .value-card {
+  padding: 10px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -27,16 +39,6 @@
 }
 .gg img {
   margin: 15px 0px;
-}
-.value-heading {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.value-heading p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  margin-top: 20px;
 }
 
 .value-content {

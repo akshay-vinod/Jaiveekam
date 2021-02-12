@@ -11,33 +11,35 @@
   font-family: "Montserrat", sans-serif;
   margin-bottom: 5%;
 }
-.bg{
+.bg {
   background-image: url(./bgimage/footerbg.svg);
+  position: relative;
+  bottom: -11vh;
 }
-.footer a{
+.footer a {
   text-decoration: none;
   color: #f4f8f7;
 }
-.footer a:hover{
-  color:black
+.footer a:hover {
+  color: black;
 }
 .fa-margin {
   position: relative;
-  top:5px;
+  top: 5px;
   margin-right: 20px;
 }
-.fa-button{
+.fa-button {
   width: 30px;
   height: 30px;
 }
-.links a{
+.links a {
   margin-left: 10px;
 }
-.bottom{
-  color:#f4f8f7;
+.bottom {
+  color: #f4f8f7;
   font-size: small;
 }
-.bottom a{
+.bottom a {
   text-decoration: none;
   color: #f4f8f7;
 }
