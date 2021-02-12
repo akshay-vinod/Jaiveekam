@@ -10,23 +10,23 @@
   font-size: large;
   font-family: "Montserrat", sans-serif;
 }
-.footer a{
+.footer a {
   text-decoration: none;
   color: #f4f8f7;
 }
-.footer a:hover{
-  color:black
+.footer a:hover {
+  color: black;
 }
 .fa-margin {
   position: relative;
-  top:5px;
+  top: 5px;
   margin-right: 20px;
 }
-.fa-button{
+.fa-button {
   width: 30px;
   height: 30px;
 }
-.links a{
+.links a {
   margin-left: 10px;
 }
 
