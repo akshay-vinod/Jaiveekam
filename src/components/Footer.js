@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -20,12 +21,9 @@ const Footer = () => {
               <i
                 className="fa fa-map-marker fa-2x fa-margin"
                 aria-hidden="true"
-              ></i>{" "}
-              90B, Delhi - Jaipur Expy, Udyog Vihar{" "}
-              <span style={{ "padding-left": "50px" }}>
-                {" "}
-                Sector 18, Gurugram, Haryana 122008
-              </span>
+              ></i>
+              Thrissur , Kerala, India <br />{" "}
+              <span style={{ "padding-left": "50px" }}></span> zipcode
             </p>
           </div>
           <div className="col-3 connect">
@@ -53,16 +51,16 @@ const Footer = () => {
             <hr />
             <div className="links">
               <p>
-                <a href="#">About Us</a>
+                <Link to="/aboutus">About Us</Link>
               </p>
               <p>
                 <a href="#">Buy/Sell</a>
               </p>
               <p>
-                <a href="#">People</a>
+                <Link to="/people">People</Link>
               </p>
               <p>
-                <a href="#">Blogs</a>
+                <Link to="/blog">Blog</Link>
               </p>
               <p>
                 <a href="#">FAQ</a>
@@ -76,7 +74,10 @@ const Footer = () => {
           <div className="col-6">
             <p>
               <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>{" "}
-              | <a href="#">Refund Policy</a> | <a href='https://www.freepik.com/vectors/flower'>Flower vector created by macrovector - www.freepik.com</a>
+              | <a href="#">Refund Policy</a> |{" "}
+              <a href="https://www.freepik.com/vectors/flower">
+                Flower vector created by macrovector - www.freepik.com
+              </a>
             </p>
           </div>
         </div>

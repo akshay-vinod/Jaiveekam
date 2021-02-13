@@ -13,6 +13,7 @@
 }
 .bg {
   background-image: url(./bgimage/footerbg.svg);
+  background-size: cover;
   position: relative;
   bottom: -11vh;
 }

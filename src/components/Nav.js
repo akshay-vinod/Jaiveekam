@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {NavLink} from "react-router-dom"
 import "./Nav.css";
 const Nav = () => {
   const [navbar, setNavbar] = useState(false);
@@ -21,16 +22,16 @@ const Nav = () => {
           </div>
           <ul className="nav-links">
             <li>
-              <a href="#">Home</a>
+              <NavLink exact to="/" activeStyle={{"color":"#7dc580"}}>Home</NavLink>
             </li>
             <li>
-              <a href="#">About Us </a>
+              <NavLink exact to="/aboutus" activeStyle={{"color":"#7dc580"}}>About Us</NavLink>
             </li>
             <li>
-              <a href="#">People</a>
+              <NavLink exact to="/people" activeStyle={{"color":"#7dc580"}}>People</NavLink>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <NavLink exact to="/blog" activeStyle={{"color":"#7dc580"}}>Blog</NavLink>
             </li>
           </ul>
         </nav>

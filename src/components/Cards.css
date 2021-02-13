@@ -45,16 +45,17 @@
 .leaf {
   position: absolute;
   overflow: hidden;
-  top: 140vh;
+  top: 135vh;
   left: -15vh;
-  z-index: 2;
+  z-index: 0;
   animation: float 2s ease-in-out infinite;
 }
 .adjleaf {
   height: 350px;
 }
 .card-s {
-  z-index: 1;
+  z-index: 2;
+  margin-left: 5%;
 }
 @keyframes float {
   0% {

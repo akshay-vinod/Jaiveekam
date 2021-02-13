@@ -82,6 +82,7 @@ nav {
 }
 .nav-links li {
   list-style: none;
+  font-family: "Montserrat", sans-serif;
 }
 .nav-links li :hover {
   color: #7dc580;
