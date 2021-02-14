@@ -12,13 +12,14 @@ const Cards = () => {
           <div className="title">
             <div className="row">
               <h4 className="display-5 mt-5">
-                Creating opportunities for everyone
+                Creating growth opportunity for all our land owners and farmers
+                alike
               </h4>
             </div>
             <div className="row">
               <p className="lead mt-3">
-                We are the first platform enabling increased benefits for
-                farmers, retailers, and consumers.
+                We are the first platform enabling increased benefits for raw
+                land owners to converting them into profitable assets.
               </p>
             </div>
           </div>

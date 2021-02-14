@@ -7,11 +7,12 @@ const Front = () => {
         <img src="/images/bg.svg" className="bgimg" />
         <div className="row">
           <div className="col-4 title">
-            <h2>Revolutionizing the Fresh Produce Supply Chain</h2>
+            <h2>Revolutionizing Raw Land Development </h2>
             <br />
             <p>
-              Driven by cutting edge technology, we source fresh produce from
-              farmers and sell to businesses, across India
+              Using technology and capitalising govt and non-govt resources to
+              develop raw lands to lucarative profitable and sustainable income
+              for the future
             </p>
             <button className="btn btn-success mt-2">Learn more</button>
           </div>
