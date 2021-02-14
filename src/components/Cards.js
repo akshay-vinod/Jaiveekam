@@ -9,21 +9,25 @@ const Cards = () => {
       </div>
       <div className="container gfont">
         <div className="card-s">
-          <div className="title">
             <div className="row">
-              <h4 className="display-5 mt-5">
+              <div className="col-1"></div>
+              <div className="col-9">
+              <p className="heading">
                 Creating growth opportunity for all our land owners and farmers
                 alike
-              </h4>
+              </p>
+              </div>
             </div>
             <div className="row">
-              <p className="lead mt-3">
+              <div className="col-1"></div>
+              <div className="col-9">
+              <p className="subheading">
                 We are the first platform enabling increased benefits for raw
                 land owners to converting them into profitable assets.
               </p>
+              </div>
             </div>
-          </div>
-          <div className="row mt-5">
+          <div className="row mt-4">
             <div className="col-1"></div>
             <div className="col-3">
               <div className="card cards">
