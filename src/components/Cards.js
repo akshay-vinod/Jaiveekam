@@ -33,8 +33,8 @@ const Cards = () => {
               <div className="card cards">
                 <div className="card-body">
                   <img className="icons" src="/images/farmer.svg" alt="" />
-                  <h4 className="card-title">Benefits for farmers</h4>
-                  <div className="card-text">
+                  <h4 className="cards-title">Benefits for farmers</h4>
+                  <div className="cards-text">
                     <p>Competetive Pricing</p>
                     <p>Doorstep delivery</p>
                     <p>High quality graded produce</p>
@@ -51,8 +51,8 @@ const Cards = () => {
                     src="/images/undraw_business_shop_qw5t.svg"
                     alt=""
                   />
-                  <h4 className="card-title">Convenience for retailers</h4>
-                  <div className="card-text">
+                  <h4 className="cards-title">Convenience for retailers</h4>
+                  <div className="cards-text">
                     <p>Competetive Pricing</p>
                     <p>Doorstep delivery</p>
                     <p>High quality graded produce</p>
@@ -69,8 +69,8 @@ const Cards = () => {
                     src="/images/undraw_successful_purchase_uyin.svg"
                     alt=""
                   />
-                  <h4 className="card-title">Savings for consumers</h4>
-                  <div className="card-text">
+                  <h4 className="cards-title">Savings for consumers</h4>
+                  <div className="cards-text">
                     <p>Competetive Pricing</p>
                     <p>Doorstep delivery</p>
                     <p>High quality graded produce</p>
