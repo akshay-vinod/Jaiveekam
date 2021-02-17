@@ -1,0 +1,13 @@
+.peoplefront-bg{
+    background-color: rgba(242,250,244,255);
+    margin-top: 8%;
+    margin-bottom: 5%;
+    text-align: center;
+    height: 100%;
+    padding: 3%;
+    font-family: "Montserrat","sans-serif";
+}
+.peoplefront-head{
+    font-size: 34px;
+    font-weight: 700;
+}

@@ -1,0 +1,88 @@
+.peoplecard {
+  padding: 30px 0 40px;
+  margin-bottom: 25%;
+  margin-left: 5%;
+  border-radius: 4%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05),
+    -15px 0px 50px 1px inset rgba(1, 1, 1, 0.1);
+  transition: 0.8s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.8s box-shadow, 1.5s translateY,0.5s color,
+    0.8s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+.peoplecard .people-picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.peoplecard:hover {
+  transform: translateY(-30px);
+  background-color: #5caa45;
+  color: #f7f5ec;
+  box-shadow: 0 10px 40px 10px rgba(0, 0, 0, 0.2),
+    0 4px 8px 8px rgba(0, 0, 0, 0.12),
+    -15px 0px 50px 1px inset rgba(29, 28, 28, 0.2);
+}
+
+.peoplecard .people-picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #f7f5ec;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.peoplecard:hover .people-picture::before {
+  height: 100%;
+}
+
+.peoplecard .people-picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #5caa45;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.peoplecard .people-picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.peoplecard:hover .people-picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.8);
+}
+
+.peoplecard .title {
+  display: block;
+  font-size: 15px;
+  margin-left: -1%;
+  color: #4e5052;
+  text-transform: capitalize;
+  transition: 0.9s color;
+}
+.peoplecard:hover .title{
+    color:#f7f5ec
+}
