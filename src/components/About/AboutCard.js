@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./AboutCard.css";
 
 const AboutCard = () => {
+  const [bgColor, SetbgColor] = useState(false);
   return (
     <div className="about-card ">
-      <div className="card about-card1">
-        <div className="circle1">
+      <div
+        className={bgColor ? "card about-card1 cardState" : "card about-card1"}
+      >
+        <div className={bgColor ? "circle1 circleState" : "circle1"}>
           <i className="fas fa-lightbulb fa-2x" />
         </div>
 
@@ -35,7 +38,11 @@ const AboutCard = () => {
           </div>
         </div>
       </div>
-      <div className="card about-card2">
+      <div
+        onMouseEnter={() => SetbgColor(true)}
+        onMouseLeave={() => SetbgColor(false)}
+        className="card about-card2"
+      >
         <div className="circle2">
           <i className="fas fa-truck fa-2x" />
         </div>
