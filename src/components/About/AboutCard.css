@@ -1,0 +1,79 @@
+.about-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+.about-card1,
+.about-card2 {
+  width: 33%;
+  height: 65vh;
+  border-radius: 18px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.8s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.8s box-shadow, 1s translateY,
+    0.8s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+.about-card1 {
+  background: #66bb6a;
+  color: #ffff;
+}
+.about-card2 {
+  color: #66bb6a;
+  background: #ffff;
+  margin-left: 5vh;
+}
+.about-card-title {
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.align-details {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.align-details p {
+  padding-left: 5px;
+}
+.circle1,
+.circle2 {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vh 0 0 3vh;
+}
+.circle1 {
+  color: #66bb6a;
+  background: #ffff;
+}
+.circle2 {
+  background: #66bb6a;
+  color: #ffff;
+}
+.about-card1:hover > .circle1 {
+  background: #66bb6a;
+  color: #ffff;
+}
+.about-card1:hover {
+  color: #66bb6a;
+  background: #ffff;
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 10px -15px #111;
+}
+.about-card2:hover > .circle2 {
+  color: #66bb6a;
+  background: #ffff;
+}
+.about-card2:hover {
+  background: #66bb6a;
+  color: #ffff;
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 10px -15px #111;
+}

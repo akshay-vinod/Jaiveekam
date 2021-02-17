@@ -1,0 +1,15 @@
+.about-prop {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.about-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  width: 50%;
+  word-spacing: 0;
+  margin-top: 10vh;
+}

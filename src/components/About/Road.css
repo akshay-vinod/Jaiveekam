@@ -1,0 +1,20 @@
+.road {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding-top: 3vh;
+}
+.road-content {
+  width: 40%;
+  padding-left: 4vh;
+}
+.road-content-h {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.road-content-para {
+  font-family: "Poppins", sans-serif;
+  color: #828287;
+}

@@ -1,0 +1,19 @@
+.bg-content {
+  background: #eff9f0;
+  padding: 8vh 0 8vh 30vh;
+}
+.about-content-h {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  letter-spacing: -1px;
+}
+.about-content-para {
+  font-family: "Poppinns", sans-serif;
+  font-size: 20px;
+  color: #828287;
+  width: 70%;
+}
+.about-content-para p {
+  padding-top: 3vh;
+}
