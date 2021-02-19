@@ -18,14 +18,14 @@ const Blog = () => {
           </div>
           <div className="col-4 mb-3">
             <BlogCard
-              title="Walmart and Flipkart Group make additional investment in Ninjacart."
-              desc="Walmart and the Flipkart Group today announced a fresh round of investment in Ninjacart, the innovative startup disrupting India’s fresh produce market with its made-for-India."
+              title="Walmart and Flipkart Group make additional investment in Jaiveekam."
+              desc="Walmart and the Flipkart Group today announced a fresh round of investment in Jaiveekam, the innovative startup disrupting India’s fresh produce market with its made-for-India."
               image="/images/pexels-wendy-wei-1656663.jpg"
             />
           </div>
           <div className="col-4 mb-3">
             <BlogCard
-              title="Coding at the Core of Ninjacart: A Developer’s Journey of Growth"
+              title="Coding at the Core of Jaiveekam: A Developer’s Journey of Growth"
               desc="The on-ground reality is always different in any company and in order to write efficient code, you must always be aware of the conditions of the people you write the code for."
               image="/images/pexels-skitterphoto-9301.jpg"
             />

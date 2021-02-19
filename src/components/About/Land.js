@@ -6,8 +6,8 @@ const Land = () => {
     <div className="about-prop">
       <div className="about-content">
         <p>
-          We are pioneers in the tech-driven supply chain space for fresh
-          produce
+          We are driven by focus for our members to turn raw lands into
+          lucarative investment opportunity
         </p>
       </div>
       <div className="about-image">

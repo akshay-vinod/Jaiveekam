@@ -1,6 +1,12 @@
-.bg-content {
+.abt-content {
   background: #eff9f0;
-  padding: 8vh 0 8vh 30vh;
+  padding: 12vh 0 0 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-content {
+  margin-left: 20vh;
 }
 .about-content-h {
   font-family: "Montserrat", sans-serif;
@@ -15,5 +21,10 @@
   width: 70%;
 }
 .about-content-para p {
-  padding-top: 3vh;
+  padding-top: 1vh;
+}
+.content-image {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
